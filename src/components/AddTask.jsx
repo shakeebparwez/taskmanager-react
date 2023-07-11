@@ -7,6 +7,7 @@ export function AddTask({ tasklist, setTasklist, task, setTask }) {
       const date = new Date();
       const updatedTasklist = tasklist.map((todo) => (todo.id === task.id ? {id: task.id, name: task.name, time: `${date.toLocaleTimeString()} ${date.toLocaleDateString()}`} : todo));
       setTasklist(updatedTasklist);
+      setTask({});
     }
     
     else {
@@ -18,7 +19,7 @@ export function AddTask({ tasklist, setTasklist, task, setTask }) {
       };
 
       setTasklist([...tasklist, newTask]);
-      e.target.task.value = "";
+      setTask({});
     }
 
   }
@@ -27,7 +28,7 @@ export function AddTask({ tasklist, setTasklist, task, setTask }) {
     <section className="addTask">
       <form onSubmit={handleSubmit}>
         <input type="text" name="task" autoComplete="off" placeholder="Add Task" maxLength="25"
-        value={task.name}
+        value={task.name || ""}
         onChange={e => setTask({...task, name: e.target.value})}
         />
         <button type="submit">Add</button>
