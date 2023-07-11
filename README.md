@@ -2,7 +2,7 @@
 
 TaskManager App is a powerful and user-friendly task management application built with React. It allows users to efficiently manage their tasks by providing features such as adding, updating, and deleting tasks, along with customizable themes. The app utilizes local storage, useState, and useEffect hooks to ensure a seamless task management experience for every user.
 
-![screenshot](app_screenshot.png)
+![screenshot](screenshot.png)
 
 ## Key Features
 
