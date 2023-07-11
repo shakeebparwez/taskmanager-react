@@ -13,16 +13,6 @@ TaskManager App is a powerful and user-friendly task management application buil
 - **useState and useEffect Hooks**: Manage the app's state and handle side effects efficiently using the useState and useEffect hooks from React.
 - **Deployment on Netlify**: The TaskManager app is seamlessly deployed on Netlify, allowing easy and secure access to the app through a live URL.
 
-## Getting Started
-
-To run the TaskManager app locally, follow these steps:
-
-1. Clone the repository: `git clone https://github.com/your-username/TaskManager.git`
-2. Navigate to the project directory: `cd TaskManager`
-3. Install the dependencies: `npm install`
-4. Start the development server: `npm start`
-5. Open your browser and visit `http://localhost:3000` to access the TaskManager app.
-
 ## Deployed Version
 
 The TaskManager app is deployed and accessible online. You can try it out by visiting the following URL: [TaskManager App](https://taskmanager-shark.netlify.app)
@@ -31,20 +21,15 @@ The TaskManager app is deployed and accessible online. You can try it out by vis
 
 Contributions are welcome! If you have any ideas, suggestions, or bug fixes, please open an issue or submit a pull request. Make sure to adhere to the existing code style and follow the contribution guidelines.
 
-## License
-
-The TaskManager app is open-source and released under the [MIT License](LICENSE).
-
 ## Acknowledgements
 
 The TaskManager app was created with the help of various open-source libraries, frameworks, and resources. We would like to acknowledge and express gratitude to the following:
 
 - React: [https://reactjs.org](https://reactjs.org)
 - Netlify: [https://www.netlify.com](https://www.netlify.com)
-- [Additional libraries/resources you used]
 
 ## Contact
 
-If you have any questions, suggestions, or feedback, feel free to reach out to us at [your-email@example.com].
+If you have any questions, suggestions, or feedback, feel free to reach out to us at [shakeebparwez@gmai.com].
 
 Happy task managing!
